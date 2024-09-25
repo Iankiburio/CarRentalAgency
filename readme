@@ -1,0 +1,36 @@
+# Car Rental Agency
+
+## Overview
+
+This is a simple Java application for managing a car rental agency. It allows users to add cars and customers, rent cars to customers, and return rented cars
+
+## Features
+
+- Add cars to the rental agency.
+- Add customers to the rental agency.
+- Rent cars to customers.
+- Return rented cars from customers.
+- Display status of customers and cars.
+
+## Project Structure
+
+- **Main.java**: The main entry point for the application that initializes the rental agency, adds cars and customers, and handles renting and returning cars.
+- **RentalAgency.java**: The class responsible for managing the rental operations, including adding cars and customers, finding available cars, and processing rentals and returns.
+- **Car.java**: Represents a car in the rental agency, including details like model, make, and rental status.
+- **Customer.java**: Represents a customer of the rental agency, including details like name, ID, and rented car.
+
+## Getting Started
+
+### Prerequisites
+
+- Ensure Java Development Kit (JDK) is installed on your machine, you can check whether Java is installed by using the following command:
+    java --version
+
+### Installation
+
+1. Clone the repository or download the source code.
+2. Navigate to the project directory in your terminal.
+3. Compile the Java files using the following command:
+    javac *.java
+4. Run the application with:
+    java Main
